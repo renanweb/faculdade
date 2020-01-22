@@ -9,31 +9,31 @@
                 <div class="row">
                     <div class="form-group">
                         <label>CPF</label>
-                        <input type="text" name="cpf" class="form-control" value="{{ old('aluno', $aluno->cpf) }}" required>
+                        <input type="text" name="cpf" class="form-control" value="{{ old('aluno', $aluno->cpf) }}" maxlength="11" required>
                     </div>
                 </div>
                 <div class="row">
                     <div class="form-group">
                         <label>RG</label>
-                        <input type="text" name="rg" class="form-control" value="{{ old('aluno', $aluno->rg) }}">
+                        <input type="text" name="rg" class="form-control" value="{{ old('aluno', $aluno->rg) }}" maxlength="10">
                     </div>
                 </div>
                 <div class="row">
                     <div class="form-group">
                         <label>Data de nascimento</label>
-                        <input type="text" name="data_nascimento" class="form-control" value="{{ old('aluno', $aluno->data_nascimento) }}">
+                        <input type="text" name="data_nascimento" class="form-control" value="{{ old('aluno', $aluno->data_nascimento) }}" maxlength="10">
                     </div>
                 </div>
                 <div class="row">
                     <div class="form-group">
                         <label>Nome</label>
-                        <input type="text" name="nome" class="form-control" value="{{ old('aluno', $aluno->nome) }}">
+                        <input type="text" name="nome" class="form-control" value="{{ old('aluno', $aluno->nome) }}" maxlength="80">
                     </div>
                 </div>
                 <div class="row">
                     <div class="form-group">
                         <label>Telefone</label>
-                        <input type="text" name="telefone" class="form-control" value="{{ old('aluno', $aluno->telefone) }}">
+                        <input type="text" name="telefone" class="form-control" value="{{ old('aluno', $aluno->telefone) }}" maxlength="15">
                     </div>
                 </div>
                 <div class="row">
